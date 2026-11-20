@@ -14,3 +14,23 @@ elif Salary <= 100000:
 else:
     Tax = 10000 * 5 / 100 + 30000 * 7 / 100 + 50000 * 10 / 100 + 100000 * 12 / 100 + (Salary - 100000) * 15 / 100
 
+
+a = float(input("enter first nuber:"))
+b = float(input("enter Second number:"))
+Op = input("Operaters (+,-,*,/):")
+
+if Op == "+":
+    print("Result:", a + b)
+elif Op == "-":
+    print("Result:",a-b)
+elif Op == "*":
+    print("Result:", a*b)
+elif Op == "/":
+    print("Result:",a/b)
+    if b == 0 :
+        print("Error: zero se divide nhi ker Skta hai")
+    else:
+        print("Result:", a / b)
+else:
+    print("Operaters +,-,*,/")
+
